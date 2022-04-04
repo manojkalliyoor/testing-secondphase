@@ -1,0 +1,205 @@
+*{
+    margin:0;
+    padding:0;
+}
+.banner{
+    background:linear-gradient(rgba(0,0,0,0.5),#009688),url(../img/Padmanabhaswamy-1.jpg);
+    /* z-index:-1; */
+    background-position: centre;
+    background-size: cover;
+    height:100vh;
+}
+.logo{
+    width:80px;
+    position:absolute;
+    top: 80px;
+    left:40px;
+}
+.banner-text{
+    padding:220px;
+    text-align: center;
+    color:white;
+}
+.banner h1{
+    font-size: 75px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.banner p{
+    font-size:20px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif   
+}
+.banner-button{
+    margin-top: -146px;
+    margin-left: 550px;
+}
+.banner-button a{
+    width:150px;
+    text-decoration: none;
+    display:inline-block;
+    margin:0px 10px;
+    padding: 12px 0px;
+    color:#fff;
+    border:.5px solid #fff;
+    text-align: center;
+    position: relative;
+    z-index:1;
+    transition: 0.3s;
+
+}
+.banner-button a span{
+    width:0%;
+    height:100%;
+    position:absolute;
+    top:0;
+    left:0;
+    background-color: #fff;
+    z-index:-1;
+    transition: .5s;
+    
+}
+.banner-button a:hover span{
+    width:100%;
+
+}
+.banner-button a:hover{
+    color:black
+}
+/* Explore */
+#explore{
+    width:100%;
+    padding:70px 0;
+}
+.title-text{
+    text-align: center;
+    padding-bottom: 70px;
+}
+.title-text p{
+    margin: auto;
+    font-size: 20px;
+    color:#009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.title-text h1{
+    font-size: 40px;
+}
+.title-text .content{
+    width:50%;
+    height:100vh;
+}
+.title-text .content-image{
+    width:50%;
+    height:100vh;
+    /* background-color:linear-gradient(rgba(0,0,0,0.5),#009688); */
+}
+.title-text .content p{
+    color:black;
+    font-size: 15px;
+    text-align: justify;
+    padding: 55px;
+    float: left;
+}
+.title-text .content-pic img{
+    width: 40%;
+    height:52vh;
+    margin-left: 720px;
+    margin-top: -609px;
+    float:left;
+   
+}
+#tourism{
+    margin-top:-175px;
+}
+.tourism-text{
+    text-align:center;
+}
+.tourism-text p{
+    margin: auto;
+    font-size: 20px;
+    color:#009688;
+    font-weight: bold;
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.tourism-text h1{
+    font-size: 40px;
+}
+
+.box1{
+    padding: 60px;
+    margin-top:25px;
+    
+}
+.box1 img{
+    width:285px;
+    height:200px;
+    float: left;
+    padding:10px;
+
+}
+.gallery{
+    background-color: bisque;
+    height:120vh;
+   
+}
+
+footer{
+    background-color: white;
+    text-align: center;
+    padding: 40px;
+}
+/* photogallery */
+.photogallery{
+    margin-top:-300px;
+    width:100%;
+    padding:70px 0;
+    background-color:lightgray;
+}
+.gallerybox{
+    width:80%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: space-round;
+    margin:auto;
+}
+.photo-gallerybox{
+    flex-basis:48%;
+    text-align: center;
+    border-radius: 7px;
+    margin-bottom:20px;
+    color:#fff;
+    padding:10px;
+}
+.photo-gallerybox img{
+    width:100%;
+    border-radius: 7px;
+}
+.overlay{
+    width:100%;
+    height:100%;
+    position:relative;
+    top: -280px;
+    border-radius: 7px;
+    cursor:pointer;
+    background:linear-gradient(rgba(0,0,0,0.5),#009688);
+    opacity: 0;
+    transition: 1s;
+}
+.photo-gallerybox:hover .overlay{
+    opacity: 1 ;
+}
+.pic-title{
+    color:white;
+    width:80%;
+    position:absolute;
+    bottom:40%;
+    left:50%;
+    transform:translateX(-50%);
+ 
+}
